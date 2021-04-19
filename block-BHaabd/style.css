@@ -48,7 +48,9 @@ table {
 }
 
 /*Custom Style*/
-
+body{
+    background-color: #efefef;
+}
 .header{
     text-align: center;
     padding: 20px 30px;
@@ -58,12 +60,11 @@ table {
     font-size: 30px;
 }
 
-main{
-    background-color: #efefef;
-}
 .section{
     max-width: 1200px;
     margin: 0 auto;
+    background-color: white;
+    
 }
 
 .col{
@@ -100,4 +101,11 @@ main{
     font-size: 21px;
     line-height: 1.2;
     margin-bottom: 16px;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
 }
