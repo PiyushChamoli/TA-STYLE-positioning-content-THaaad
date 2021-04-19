@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CustomStyle*/
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Header*/
+
+header{
+    background-color: rgb(255, 247, 134);
+    margin: 0 auto;
+    padding: 20px 40px;
+    height: 72px;
+    line-height: 72px;
+}
+.head-left{
+    float: left;
+}
+.head-left img{
+    vertical-align: middle;
+}
+.head-right{
+    float: right;
+    vertical-align: middle;
+}
+.head-right a{
+    color: #58b768;
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 12px;
+    text-transform: uppercase;
+}
+
+/*Body*/
+
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.col{
+    float: left;
+    width: 30%;
+    margin: 20px 1.5%;
+}
+.col img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.col p{
+    font-size: 22px;
+    line-height: 1.3;
+    margin-top: 16px;
+}
+
+.footer{
+    background-color: rgb(255, 247, 134);
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #58b768;
+    margin-left: 15px;
+}
