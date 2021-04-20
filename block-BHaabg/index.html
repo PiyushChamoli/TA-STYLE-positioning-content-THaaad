@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2|Positioning Content</title>
+    <title>Assignment 2 | Positioning Content</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/721dc3a700.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="top">
     <header class="header">
         <div class="container clearfix">
-            <img class="logo" src="images/altcampus-logo.svg" alt="Logo">
+            <a class="logo" href="#">
+                <img src="images/altcampus-logo.svg" alt="Logo">
+            </a>
             <nav class="nav">
                 <a href="#">Home</a>
                 <a href="#">About</a>
@@ -19,38 +22,68 @@
         </div>
     </header>
     <main>
-        <section class="main-section">
+        <section class="main-section ">
             <article class="container clearfix">
-                <div class="right col">
+                <div class="col right">
                     <h2>
                         This is the heading.
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quis, quaerat 
-                        sunt blanditiis modi saepe culpa magnam eaque repellat laudantium quam 
-                        molestiae ut quisquam cupiditate! Optio ducimus eveniet libero laboriosam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi necessitatibus 
+                        facere numquam voluptatem veniam illum eveniet enim optio reprehenderit labore, iusto adipisci 
+                        amet eos distinctio doloremque. Perspiciatis totam accusantium laudantium!
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quis, quaerat 
-                        sunt blanditiis modi saepe culpa magnam eaque repellat laudantium quam 
-                        molestiae ut quisquam cupiditate! Optio ducimus eveniet libero laboriosam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi necessitatibus 
+                        facere numquam voluptatem veniam illum eveniet enim optio reprehenderit labore, iusto adipisci 
+                        amet eos distinctio doloremque. Perspiciatis totam accusantium laudantium!
                     </p>
                 </div>
-                <div class="left col">
+                <div class="col left">
                     <img src="images/niklas-priddat-kqJJqamhZMg-unsplash.jpg" alt="Night">
                 </div>
             </article>
         </section>
-        <section class="gallery">
-            <div class="container gal">
-                <img class="one" src="images/6.jpg" alt="">
-                <img class="two" src="images/5.jpg" alt="">
-                <img class="three" src="images/4.jpg" alt="">
-                <img class="four" src="images/3.jpg" alt="">
-                <img class="five" src="images/2.jpg" alt="">
-                <img class="six" src="images/1.jpg" alt="">
+        <section class="second-section">
+            <div class="container clearfix">
+                <div class="gal">
+                    <img src="images/6.jpg" alt="Pic6">
+                </div>
+                <div class="gal">
+                    <img src="images/5.jpg" alt="Pic5">
+                </div>
+                <div class="gal">
+                    <img src="images/4.jpg" alt="Pic4">
+                </div>
+                <div class="gal">
+                    <img src="images/3.jpg" alt="Pic3">
+                </div>
+                <div class="gal">
+                    <img src="images/2.jpg" alt="Pic2">
+                </div>
+                <div class="gal">
+                    <img src="images/1.jpg" alt="Pic1">
+                </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <nav>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+    <a class="btn" href="#top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
 </body>
 </html>
