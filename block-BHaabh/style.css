@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Style*/
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+
+/*Header*/
+
+.header{
+    background-color: #5385c1;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    position: relative;
+    height: 450px;
+}
+.left-header{
+    float: left;
+    width: 20%;
+}
+.left-header h2{
+    font-size: 14px;
+    font-weight: 800;
+}
+.center-header{
+    position: absolute;
+    text-align: center;
+    bottom: 130px;
+    left: 420px;
+}
+.center-header h1{
+    font-size: 55px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.center-header p{
+    font-size: 16px;
+    color: #afc6e2
+}
+.right-header{
+    float: right;
+    width: 20%;
+}
+.right-header a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #afc6e2;
+    margin-left: 10px;
+}
+
+/*Body*/
+/*Section-1*/
+
+.col{
+    float: left;
+    width: 30%;
+    padding: 120px 20px;
+    margin-right: 37px;
+}
+.col h2{
+    font-size: 20px;
+    color: #5385c1;
+    margin-bottom: 13px;
+}
+.col p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #9c9c9c;
+}
+.col a{
+    background-color: #5385c1;
+    width: 15px;
+    height: 8px;
+    padding: 8px 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Second-Section*/
+
+.second-section{
+    background-color: #5385c1;
+    padding: 70px 0;
+}
+.center-text h2{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: lighter;
+    font-size: 45px;
+    color: white;
+}
+.center-text p{
+    text-align: center;
+    font-size: 15px;
+    color: #afc6e2;
+    padding-bottom: 60px;
+}
+.second-col{
+    float: left;
+    width: 20%;
+    text-align: center;
+    border: 1px solid #afc6e2;
+    margin-right: 55px;
+}
+.second-col img{
+    margin-top: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.second-col h2{
+    color: white;
+    font-size: 25px;
+    padding-top: 35px;
+}
+.second-col p{
+    color: #afc6e2;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+/*Third-Section*/
+
+.second-center-text h2{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: lighter;
+    font-size: 45px;
+    color: #5385c1;
+}
+.second-center-text p{
+    text-align: center;
+    font-size: 15px;
+    color: #afc6e2;
+    padding-bottom: 60px;
+}
+.third-col{
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+    margin-bottom: 100px;
+}
+
+.third-col img{
+    width: 100%;
+    object-fit: cover;
+}
+.third-col h2{
+    font-size: 20px;
+    color: #5385c1;
+    margin-bottom: 13px;
+}
+.third-col p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #9c9c9c;
+}
+.third-col a{
+    background-color: #5385c1;
+    width: 15px;
+    height: 8px;
+    padding: 8px 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+hr{
+    border: 1px solid #dbdbdb;
+    margin-bottom: 50px;
+}
+
+.footer{
+    padding: 30px 0;
+    margin-bottom: 40px;
+}
+.foot-left{
+    float: left;
+    color: #c3c3c3;
+    font-size: 15px;
+
+}
+.foot-right{
+    float: right;
+}
+.foot-right a{
+    font-size: 18px;
+    color: #5385c1;
+    text-decoration: none;
+    margin-left: 14px;
+}
